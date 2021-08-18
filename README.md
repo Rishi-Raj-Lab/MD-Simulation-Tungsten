@@ -8,7 +8,7 @@ Lattice parameter, a = 3.1648 Å
 Boundary is set such that a and c axes have periodic boundary condition imposed on them while b-axis is a free surface
 
 ## Potential Energy
-The interatomic potentials used - W.eam.fs - in this study is Finnis-Sinclair potential which is the most suitable for a BCC metal like tungsten. The potential was obtained from the NIST repository via https://www.ctcms.nist.gov/potentials/system 
+The interatomic potentials used - W.eam.fs - in this study is Finnis-Sinclair potential which is the most suitable for a BCC metal like tungsten. The potential was obtained from the NIST repository via https://www.ctcms.nist.gov/potentials/system/W/#W 
 
 ## Integration 
 Velocity-verlet algorithm was used to track the tracjetories of atoms velocities and positions,  an image was captured after every 5000 steps.
