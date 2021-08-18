@@ -7,6 +7,9 @@ The size of the simulation box is 20a x 17a x 20a withthe bottom 20a x 2.5a x 20
 Lattice parameter, a = 3.1648 Å
 Boundary is set such that a and c axes have periodic boundary condition imposed on them while b-axis is a free surface
 
+## Potential Energy
+The interatomic potentials used in. this study is Finnis-Sinclair potential which is the most suitable for a BCC metal like tungsten. The potential was obtained from the NIST repository via https://www.ctcms.nist.gov/potentials/system 
+
 ## Integration 
 Velocity-verlet algorithm was used to track the tracjetories of atoms velocities and positions,  an image was captured after every 5000 steps.
 Nose-Hoover chain thermostat to carry out the siimulation at a fixed final temperature attained after equilibration.
