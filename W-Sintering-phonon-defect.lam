@@ -10,7 +10,7 @@ variable name string sinter_W_Single_Crystal
 # ---------- Initialize Simulation --------------------------
 
 units metal                       ## use metal unit system - see lammps manual
-boundary p p p                    ## make simulation box periodic along all directions
+boundary p f p                    ## make simulation box periodic along all directions
 atom_style charge                 ## atomic system with charge
 neighbor    0.3 bin                 ## define parameters for neighbor list
 neigh_modify    delay 5	            ## define parameters for neighbor list
