@@ -16,7 +16,7 @@ Nose-Hoover chain thermostat to carry out the siimulation at a fixed final tempe
 The total simulation time is 0.4ns, from a total of 800 000steps and a timsestep of 0.5fs.
 
 ## Observables
-- Phonon Spectra
+- Phonon Dispersion Spectra
 - Kinetic energy change with respect to time
 - Defect formation
 - Mean Squared Displacement
